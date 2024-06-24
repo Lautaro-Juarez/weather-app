@@ -1,0 +1,29 @@
+html {
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --white: white;
+  --lightblue: #c0e5ff;
+  --black: #111;
+  --bg_transparent: rgba(0, 0, 0, 0.6);
+  --bg_blue: linear-gradient(to top, #537895 0%, #09203f 100%);
+  --bg_orange: linear-gradient(to top, #be7c00 0%, #a74c0f 100%);
+}
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: var(--bg_blue);
+}
+
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  font-size: .9rem;
+}

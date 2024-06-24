@@ -1,0 +1,51 @@
+.city_card {
+  width: 90%;
+  height: 80px;
+  border-radius: 10px;
+  background-color: var(--bg_transparent);
+  margin: 6px;
+  margin: auto;
+  position:relative;
+  .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      width: 100%;
+      white-space: nowrap;
+      margin: 4px;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+  .icon {
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    img{
+      margin-top: -10px;
+    }
+  }
+  .add_fav, .delete_fav {
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+    text-align: center;
+    background-color: rgba(255,255,255,.4);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 2px 0;
+  }
+  .delete_fav{
+    background-color: rgba(255,0,0,.4);
+  }
+}
+.city_card{
+  margin-top: 20px;
+}
+.city_card:first-child {
+  margin-top: 40px;
+}

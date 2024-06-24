@@ -1,0 +1,28 @@
+.container{
+  width: 80vw;
+  max-width: 800px;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  background-color: var(--bg_transparent);
+  border-radius: 10px;
+  h1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .forecast{
+    width: 100%;
+    height: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    .forecast_card{
+        width: 80%;
+        height: 18%;
+        background-color: red;
+    }
+  }
+}
